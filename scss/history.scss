@@ -1,0 +1,39 @@
+.history {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+
+    &__img {
+        position: relative;
+        max-width: 600px;
+
+
+        &_one {
+            position: absolute;
+            left: 80px;
+            width: 505px;
+            height: 403px;
+            border-radius: 15px;
+        }
+
+        &_two {
+            position: absolute;
+            border-radius: 15px;
+            width: 380px;
+            height: 319px;
+            top: 150px;
+        }
+    }
+
+
+    &__descr {
+        max-width: 580px;
+
+        h2 {
+            margin-top: 20px;
+        }
+        p {
+            margin-top: 15px;
+        }
+    }
+}

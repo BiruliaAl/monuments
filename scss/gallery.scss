@@ -1,0 +1,37 @@
+.gallery {
+    h2 {
+        margin-top: 35px;
+    }
+
+    &__img {
+        margin-top: 35px;
+        img {
+            border-radius: 10px;
+        }
+    }
+
+    &__markers {
+        margin-top: 35px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        div {
+            width: 18px;
+            height: 18px;
+            border-radius: 50px;
+            margin-right: 20px;
+
+            &:nth-child(1) {
+                background-color: #FF9458;
+            }
+            &:nth-child(2) {
+                background-color:#F5F5F3;
+            }
+            &:nth-child(3) {
+                background-color:#F5F5F3;
+            }
+        }
+        
+        
+    }
+}

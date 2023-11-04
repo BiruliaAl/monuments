@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'Gilroy'; 
+	src: url(/foonts/Gilroy-Regular.woff2); 
+    font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Gilroy'; 
+	src: url(/foonts/Gilroy-Medium.woff2); 
+    font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Gilroy'; 
+	src: url(/foonts/Gilroy-Bold.woff2); 
+    font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Open Sans'; 
+	src: url(/foonts/OpenSans-SemiBold.woff2); 
+    font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Open Sans'; 
+	src: url(/foonts/OpenSans-Bold.woff2); 
+    font-weight: 700;
+}
+
+@font-face {
+	font-family: 'SF Pro Display'; 
+	src: url(/foonts/SFProDisplay-Medium.woff2); 
+    font-weight: 400;
+}
+
+@font-face {
+	font-family: 'SF Pro Display'; 
+	src: url(/foonts/SFProDisplay-Semibold.woff2); 
+    font-weight: 600;
+}
+
+@font-face {
+	font-family: 'TT Norms'; 
+	src: url(/foonts/TTNorms-Regular.woff2); 
+    font-weight: 400;
+
+}

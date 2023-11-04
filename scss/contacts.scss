@@ -1,0 +1,58 @@
+
+.contacts {
+	display: flex;
+	justify-content: space-around;
+	font-size: 14px;
+	padding: 15px 0;
+		&__adress {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			margin-top: 5px;
+			max-width: 280px;
+
+			&_info {
+				max-width: 235px;
+				margin-left: 10px;
+			}
+		}
+
+		&__email {
+			display: flex;
+			align-items: center;
+
+			&_img {
+				margin-right: 16px;
+			}
+		}
+
+		&__social {
+			align-self: center;
+			a{
+				margin-left: 10px;
+			}
+			
+		}
+
+
+		&__phone {
+			&_item {
+				display: flex;
+				align-items: center;
+			}
+			a {
+				margin-right: 10px;
+			}
+		}
+	button {
+		background: #FFF;
+		width: 242px;
+		height: 49px;
+		padding: 10px;
+		border-radius: 15px;
+		border: 1px solid #FF9458;
+		color: #FF9458;
+		font-size: 16px;
+		font-weight: 600;
+	}
+}

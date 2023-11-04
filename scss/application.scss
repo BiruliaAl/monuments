@@ -1,0 +1,65 @@
+.section_application {
+    background-color: #252525;
+    background-image: url('../media/img/application_bacgr.png') ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.application {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 354px;
+
+    &__descr {
+        width: 580px;
+        color: #FFF;
+        font-family: 'Open Sans';
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 55px;
+    }
+
+    &__form {
+        h3 {
+            margin: 0;
+            color: #FFF;
+            font-family: 'Gilroy';
+            font-size: 30px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+
+        form {
+            input {
+                width: 428px;
+                padding: 23px 15px;
+                border-radius: 10px;
+                background: #F6F6F6;
+                margin-bottom: 10px;
+
+                &::placeholder{
+                    color: #747474;
+                    font-family: 'SF Pro Display';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+
+            }
+
+            button {
+                width: 460px;
+                padding: 22px 60px;
+                align-items: center;
+                border-radius: 10px;
+                background: #FF9458;
+                color: #FFF;
+                font-family: 'SF Pro Display';
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+            }
+        }
+    }
+}
