@@ -1,39 +1,45 @@
 .history {
-    padding: 60px 0;
-    display: flex;
-    justify-content: space-between;
 
-    &__img {
-        position: relative;
-        max-width: 600px;
+    &__item {
+        padding: 30px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-around;
+        max-width: 1100px;
+        &-one {
+            position: relative;
+            background: #252525;
+            z-index: 1;
+        }
+        &-two {
+            background: #FF9458;
+            margin-left: 50px;
+            margin-top: -10px;
+        }
+        
 
-
-        &_one {
-            position: absolute;
-            left: 80px;
-            width: 505px;
-            height: 403px;
+        &_img {
             border-radius: 15px;
+            &-one{
+                width: 397px;
+                height: 343px;
+            }
+            &-two{
+                width: 392px;
+                height: 356px;
+            }
         }
 
-        &_two {
-            position: absolute;
-            border-radius: 15px;
-            width: 380px;
-            height: 319px;
-            top: 150px;
-        }
-    }
-
-
-    &__descr {
-        max-width: 580px;
-
-        h2 {
-            margin-top: 20px;
-        }
-        p {
-            margin-top: 15px;
+        &_descr {
+            color: #FFF;
+            font-family: Gilroy;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: normal;
+            max-width: 580px;
+            align-self: center;
         }
     }
 }
+
+

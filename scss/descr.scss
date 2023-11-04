@@ -1,6 +1,6 @@
 .descr {
     
-    height: 782px;
+    min-height: 782px;
     background: url(../media/img/background_descr.png) center center/cover no-repeat;
 
     &__items {
@@ -11,7 +11,7 @@
         h1 {
             color: #FFF;
             font-family: 'Open Sans';
-            font-size: 39px;
+            font-size: 44px;
             font-weight: 700;
             text-transform: uppercase;
             max-width: 747px;
@@ -70,6 +70,13 @@
             background: #FFF;
             margin-top: 75px;
             padding: 30px;
+            margin-bottom: 80px;
+
+            &_line {
+                width: 2px;
+                height: 50px;
+                background: #DDD;
+            }
 
             &_item {
 
@@ -79,11 +86,13 @@
                 max-width: 380px;
 
                 img {
-                    border-radius: 50px;
+                    border-radius: 10px;
                     margin-right: 20px;
+                    object-fit: contain;
                 }
 
                 p {
+                    font-size: 20px;
                     color: #000;
                     font-weight: 500;
                     margin: 0;
