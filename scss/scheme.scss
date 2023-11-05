@@ -3,7 +3,13 @@
 }
 
 .scheme {
-    position: relative;;
+    position: relative;
+    padding: 35px 0;
+    &__line {
+        position: absolute;
+        z-index: -1;
+        margin-top: 170px;
+    }
     &__btn {
         position: absolute;
         &-prew {
@@ -20,7 +26,7 @@
             height: 39px;
             background: #252525;
             border-radius: 70px;
-            right: -50px;
+            right: -90px;
             top: 50%;
             transform: translateY(-50%);
         } 
@@ -30,11 +36,34 @@
     &__items {
         display: flex;
         flex-wrap: wrap;
-
-        // .scheme__items_el
+        column-gap: 90px;
+        row-gap: 60px;
+        margin-top: 50px;
 
         &_el {
-            max-width: 290px;
+
+            max-width: 292px;
+
+            &-width {
+                width: 394px;
+            }
+            
+            p {
+                margin-top: 20px;
+                font-weight: 500;
+            }
+            button {
+                width: 309px;
+                height: 75px;
+                padding: 10px;
+                border-radius: 15px;
+                background: #FF9458;
+                color: #FFF;
+                font-weight: 600;
+                border: none;
+                font-size: 20px;
+                margin-top: 30px;
+            }
         }
     }
 }
